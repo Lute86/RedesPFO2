@@ -171,6 +171,18 @@ Para un proyecto académico como la PFO2 SQLite es una elección correcta y sufi
 
 ---
 
+## Por que no se usa GitHub Pages:
+
+
+> GitHub Pages sirve unicamente archivos estaticos (HTML, CSS, JS).
+> Este proyecto requiere un servidor Python corriendo permanentemente para procesar requests, ejecutar
+> logica y acceder a la base de datos SQLite — algo que GitHub Pages no puede hacer.
+>
+> Si se quisiera alojar el `index.html` en GitHub Pages y tenerlo accesible publicamente, el servidor
+> Flask deberia correr en un servicio externo como **Render** o **Railway**. En ese caso, el frontend
+> haria los requests a la URL publica del servidor (ej. `https://pfo2-api.onrender.com`) en lugar de `localhost`.
+
+---
 
 ##  Tecnologías utilizadas
 
