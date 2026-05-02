@@ -26,7 +26,7 @@ PFO2/
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/<tu-usuario>/PFO2.git
+git clone https://github.com/Lute86/PFO2.git
 cd PFO2
 ```
 
@@ -167,25 +167,10 @@ El **hashing** transforma la contraseña en una cadena irreversible:
 | **Persistencia real** | Los datos sobreviven al reinicio del servidor, a diferencia de estructuras en memoria. |
 | **ACID** | Garantiza transacciones atómicas, consistentes, aisladas y durables. |
 
-Para un proyecto como PFO2 (uso académico, un solo proceso), SQLite es la elección correcta y suficiente.
+Para un proyecto académico como la PFO2 SQLite es una elección correcta y suficiente.
 
 ---
 
-## Deploy en GitHub Pages
-
-> GitHub Pages solo sirve contenido estático. Para alojar la API completa se recomienda **Render** o **Railway** (gratuitos).  
-> El repositorio con el código fuente puede publicarse en GitHub normalmente.
-
-```bash
-git init
-git add .
-git commit -m "PFO2: API Flask + SQLite"
-git branch -M main
-git remote add origin https://github.com/<tu-usuario>/PFO2.git
-git push -u origin main
-```
-
----
 
 ##  Tecnologías utilizadas
 
